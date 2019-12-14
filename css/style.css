@@ -236,15 +236,102 @@ p{
 #box6{
   background-image: url("../img/sinister.jpeg");
 }
-.box-img:hover{
+#box7{
+  background-image: url("../img/radar.jpeg");
+}
+#box8{
+  background-image: url("../img/mixdaily.jpeg");
+}
+#box9{
+  background-image: url("../img/youg.jpeg");
+}
+#box10{
+  background-image: url("../img/einaudi.jpeg");
+}
+.hoverplay{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.0);
+  color: rgba(0, 0, 0, 0.0);
+}
+.hoverplay i{
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+.hoverplay:hover{
   cursor: pointer;
   opacity: 0.5;
+  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  transition: 0.3s;
 }
-
+.creato-per p{
+  font-size: 17px;
+  color: grey;
+}
+.artisti p{
+  font-size: 17px;
+  color: grey;
+}
+.circle-box{
+  border-radius: 50%;
+}
+.hoverplay-circle{
+  border-radius: 50%;
+}
+.hoverplay-circle:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  transition: 0.3s;
+}
 
 /* footer */
 .footer {
   width: 100%;
   height: 90px;
-  background-color: pink;
+  background-color: #333;
+}
+.music-player{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+.current-track{
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row;
+}
+.current-img{
+  display: flex;
+  justify-content: flex-start;
+  height: 55px;
+  width: 55px;
+  background-image: url("../img/sinister.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.track-name{
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  color: #fff;
+}
+.music-icons{
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+.m-icons{
+  padding-left: 15px;
 }
