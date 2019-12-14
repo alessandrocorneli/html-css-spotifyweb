@@ -31,16 +31,16 @@ body {
   height: 100%;
   background: #000;
   font-size: 15px;
+  color: grey;
 }
 .playlist-btn{
-  color: grey;
   background-color: rgba(0, 0, 0, 0);
   font-size: 15px;
   border: 0;
   padding-top: 10px;
+  color: grey;
 }
 .playlist-btn:hover{
-  color: #fff;
   padding-left: 10px;
 }
 .main-nav-header {
@@ -54,7 +54,6 @@ body {
   background-repeat: no-repeat;
 }
 .menu-list{
-  color: grey;
   list-style: none;
   padding-top: 10px;
 }
@@ -80,6 +79,7 @@ h3{
 }
 .upgrade-btn{
   text-transform: uppercase;
+  text-decoration: none;
   color: #fff;
   padding: 15px 35px 15px 35px;
   border-radius: 30px;
@@ -98,7 +98,6 @@ h3{
 }
 .playlist {
  list-style: none;
- color: grey;
 }
 .playlist li{
   padding-top: 5px;
@@ -109,9 +108,36 @@ h3{
   padding-left: 5px;
 }
 .main-nav-footer {
-  background-color: brown;
+  height: 80px;
+  background-color: #000;;
 }
-
+.install-btn{
+  color: grey;
+  text-decoration: none;
+}
+.install-btn:hover{
+  color: #fff;
+  padding-left: 10px;
+}
+.account-btn{
+  color: grey;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.account-btn:hover{
+  color: #fff;
+  cursor: pointer;
+  padding-left: 5px;
+}
+.profile-img{
+  height: 25px;
+}
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid grey;
+}
 /* main content */
 .main-content {
   padding-top: 70px;
