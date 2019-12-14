@@ -42,6 +42,7 @@ body {
 }
 .playlist-btn:hover{
   padding-left: 10px;
+  cursor: pointer;
 }
 .main-nav-header {
   background-color: #000;
@@ -108,7 +109,10 @@ h3{
   padding-left: 5px;
 }
 .main-nav-footer {
+  display: flex;
+  flex-direction: column;
   height: 80px;
+  margin-bottom: 15px;
   background-color: #000;;
 }
 .install-btn{
@@ -124,6 +128,9 @@ h3{
   text-decoration: none;
   text-transform: capitalize;
   font-size: 20px;
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+  margin-top: 10px;
 }
 .account-btn:hover{
   color: #fff;
@@ -132,11 +139,6 @@ h3{
 }
 .profile-img{
   height: 25px;
-}
-hr{
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border: 1px solid grey;
 }
 /* main content */
 .main-content {
@@ -163,6 +165,82 @@ hr{
   font-size: 20px;
   background-color: white;
 }
+.main-menu{
+  height: 40px;
+  width: calc(100%-220px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-menu a{
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color:grey;
+}
+.main-menu a:hover{
+  font-weight: bold;
+  border-bottom: 2px solid #41D223;
+  color: #fff;
+}
+.recently{
+  padding: 15px;
+}
+.recently p{
+  font-size: 15px;
+}
+h6{
+  color: #fff;
+  cursor: default;
+}
+p{
+  cursor: default;
+}
+.track{
+  display: flex;
+  flex-flow: row;
+}
+.box-track{
+  width: 150px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: grey;
+}
+.box-img{
+  height: 130px;
+  width: 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#box1{
+  background-image: url("../img/metal_lifting.jpg");
+}
+#box2{
+  background-image: url("../img/stranger.jpeg");
+}
+#box3{
+  background-image: url("../img/aquietplace.jpeg");
+}
+#box4{
+  background-image: url("../img/split.jpeg");
+}
+#box5{
+  background-image: url("../img/cure.jpeg");
+}
+#box6{
+  background-image: url("../img/sinister.jpeg");
+}
+.box-img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
 
 /* footer */
 .footer {
